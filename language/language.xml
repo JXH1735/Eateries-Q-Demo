@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">Continue...</item>
+        <item id="btnclose">Close</item>
+        <item id="btnHelp">Help me!</item>
+        <item id="btnAgreement">Affects me the most</item>
+        <item id="btnNeutral">Affects me a moderate amount</item>
+        <item id="btnDisagreement">Affects me the least</item>
+        <item id="btnTransfer">Submit data</item>
+        <item id="btnExit">Exit</item>
+        <item id="selectItem">Please select...</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">Your answers will be lost.</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">Back</item>
+        <item id="fillInRequiredFields">Please fill in all required fields</item>
+
+        <!-- errors -->
+        <item id="errorHead">Error!</item>
+        <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">Welcome!</item>
+        <item id="welcomeText">Thank you for taking part in this study. {br}{br} This study is about understanding autistic adults' individual views on what barriers are most impactful when trying to use eateries such as cafes and restaurants, here in the UK. {br}{br} We hope that this study will help inform autism friendly eatery places. {br}{br} Please click continue to enter your ID number before starting the sorting activity.</item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">Access Code</item>
+        <item id="loginText">Please enter the access code for this survey.</item>
+        <item id="loginFormHeader">Access Code</item>
+        <item id="loginPartIdText">Your name or survey id number</item>
+        <item id="loginNoInput">Please enter the access code.</item>
+        <item id="loginInvalidInput">Access code invalid</item>
+        <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+        <!-- introduction (leave blank to skip popup) -->
+        <item id="introHead">Introduction</item>
+        <item id="introText">Unfortunately, autistic adults can experience leisure settings such as eateries as inaccessible due to a number of barriers. {br}{br} To understand which barriers affect you the most, you will be guided through a sorting activity. {br}{br} Here, you will be asked to sort through 38 statements of identified barriers to eateries for autistic individuals. {br}{br} {b}Please know that there are no right or wrong answers. We are interested in your own experiences and views.{/b}{br}{br} If you have decided to do this section of the study independently, please do not hesitate to email the researcher, Jenny Haynes, on JXH1735@student.bham.ac.uk, if you have any questions or issues. {br}{br} If you are happy to continue, please click next to see the instructions for the sorting activity.</item>
+
+        <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+        <item id="step1Head">Step 1 of 5</item>
+        <item id="step1Text">Please read each statement carefully and place into one of three piles: {br}{br} 1. A pile for statements you think affect you the least when using eateries {br}{br} 2. A pile for statements you think affect you a moderate amount {br}{br} 3. A pile for those that affect you the most when using eateries{br}{br}You can either drag the cards into one of the three piles or {b}press 1, 2, 3{/b} on your keyboard. {br}{br} If you have chosen to complete this section with the researcher sharing their screen, you can guide them by either saying or typing which pile you want the statement in. You can use the name of the pile, such as 'affects me the most', or the pile number. {br}{br} Changes can be made later when you arrange the statements onto the grid.{br}{br}If you want to read this instruction again, press the help-button at the bottom left corner at any point while sorting.</item>
+
+        <!-- step2: sorting (leave blank to skip popup) -->
+        <item id="step2Head">Step 2 of 5</item>
+        <item id="step2Text">Now, take the cards from the "AFFECTS ME THE MOST" pile and arrange them on right side of the grid.{br}{br}Next, take the cards from the "AFFECTS ME THE LEAST" pile and arrange them on the left side of the grid.{br}{br}Finally, take the "AFFECTS ME A MODERATE AMOUNT" cards and arrange them in the remaining open boxes of the grid. {br}{br}
+
+Completing with the researcher sharing their screen?
+You can guide them by either saying or typing which column you want the statement placed in. You can see the number of each column at the top of the grid from 0 to 8 {br}{br}</item>
+        <item id="step2CondOfInstruc">Please sort the statements based on how much each barrier impacts your ability to access eateries</item>
+        <item id="step2TextSizeLabel">Text</item>
+        
+
+        <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+        <item id="step3Head">Step 3 of 5</item>
+        <item id="step3Text">Now you have placed all cards on the grid. Please check and swap the position of statements if you wish.
+
+Once you feel that the grid represents your perspective on what barriers affect you the most when using eateries, please click submit. </item>
+        <item id="step3CondOfInstruc">Give condition of instruction here</item>
+
+        <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+        <item id="step4Head">Step 4 of 5</item>
+        <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "-3" or "+3".</item>
+
+        <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+        <item id="step5Head">Step 5 of 5</item>
+        <item id="step5Text">Finally, please take time to answer the following questions before finishing the study.</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">Submit Data</item>
+        <item id="transferText">You've finished the survey. Please submit your data now.</item>
+        <item id="transferFailed">Data submission failed. Please try again.</item>
+        <item id="transferOk">Thank you for your interest and participation in this study!{br}{br}
+Any questions or concerns, please contact the researchers:
+{b}Jennifer Haynes (Researcher) – jxh1735@student.bham.ac.uk{/b}{br}
+{b}Dr Catherine Manning (Research Supervisor) – c.manning@bham.ac.uk{/b}{br}{br}
+
+We also understand that thinking back to your experiences may be distressing for some. If you have experienced this, please refer to some sources of support:{br}
+{b}- Your GP {/b}{br}
+{b}- Samaritans:{/b}support line on by calling 116 123 for free or emailing jo@samaritans.org. Available all hours.{br}
+{b}- Mind Charity: {/b} support line on 0300 102 1234. Information about support near you on 0300 123 3393 or email info@mind.org.uk {br}{br}
+
+You have come to the end of the study.
+You can now close your browser window.
+
+{b}Thank you!{/b}</item>   
+   </language>
